@@ -46,7 +46,7 @@ export const App = () => {
         onClick={onClickAdd}
       />
       <IncompleteTodos
-        todo={incompleteTodos}
+        todos={incompleteTodos}
         onClickComplete={onClickComplete}
         onClickDelete={onClickDelete}
       />
